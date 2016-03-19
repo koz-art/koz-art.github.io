@@ -39,8 +39,8 @@ $('a[href^="#"], a[href^="."]').on('click', function() {
 
   //sandwich-show-hide
   if ($('.sandwich').css('display') == 'block') {
-    if ($('.main-navigation').css({'display': 'block'})) {
-      $('.main-navigation').fadeOut(500);
+    if ($('.main-navigation').css('display') == 'block') {
+      $('.main-navigation').fadeOut(300);
       $('.sandwich').removeClass('active');
     }
   }
